@@ -21,6 +21,8 @@ public class Main extends JFrame {
 start.addActionListener(e-> showCalculator());
 exit.addActionListener(e->System.exit(0));
 
+
+
     setContentPane(panel);
 
     revalidate();
